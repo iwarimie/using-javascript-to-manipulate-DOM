@@ -56,3 +56,16 @@ moveh1.parentElement.append(moveh1);
 
 // moveh1.parentElementToBeAttached.append(moveh1);
 
+//Working with innerHTML
+
+let newParagraph = document.createElement('p');
+newParagraph.textContent = 'This is a new paragraph I want to use to test "innerHTML"';
+
+// console.dir(parentElementToBeAttached);
+
+let parentToAttach = document.querySelector('main');
+
+parentToAttach.append(newParagraph);
+
+newParagraph.innerHTML = 'I think I am getting along with <strong>JavaScript</strong>';
+

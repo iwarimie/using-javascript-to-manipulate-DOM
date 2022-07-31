@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    text-align: center;
+    width: 30rem;
+    margin: 3rem auto;
+    /* display: flex; */
+
+
+}
+
+input{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
